@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Display Property - Absolute</title>
+    <style media="screen">
+      body>div {
+        width: 100px;
+        height: 100px;
+      }
+
+      * { margin: 0; }
+
+      .red {
+          background-color: red;
+          position: absolute;
+          top: 200px;
+          left: 200px;
+      }
+      .blue {
+        position: absolute;
+          background-color: blue;
+          left: 100px;
+          top: 100px;
+       }
+      .yellow {
+        position: absolute;
+          background-color: yellow;
+          top: 0px;
+       }
+
+    </style>
+  </head>
+  <body>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="yellow"></div>
+  </body>
+</html>

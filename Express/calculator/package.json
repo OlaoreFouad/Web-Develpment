@@ -1,0 +1,15 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A web application idea, inspired by Angela Yu's course on web dev.",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node calculator.js"
+  },
+  "author": "Olaore Fouad",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

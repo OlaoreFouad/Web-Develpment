@@ -1,3 +1,211 @@
-.navbar-toggler:focus {
-  outline: none;
+body {
+  overflow-x: hidden;
+}
+
+* { font-family: 'Comfortaa'}
+
+/* Variable Declarations */
+
+:root {
+  --colorPrimary: #ff6c68;
+  --colorWhite: #fff;
+  --colorGray: #a2a2a2;
+}
+
+/* Font imports */
+@font-face {
+  font-family: Comfortaa;
+  src: url('../fonts/Comfortaa-Bold.ttf');
+}
+
+@font-face {
+  font-family: ComfortaaLight;
+  src: url('../fonts/Comfortaa-Light.ttf');
+}
+
+@font-face {
+  font-family: Monaco;
+  src: url('../fonts/Monaco.ttf');
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: 'Monaco';
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+nav {
+  margin: 0 0 3rem;
+}
+
+.navbar-nav li {
+  font-size: 1.1rem;
+  padding: 0 18px;
+  font-family: 'ComfortaaLight';
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title */
+
+#title {
+  background-color: var(--colorPrimary);
+}
+
+#title h1 {
+  font-family: 'Comfortaa';
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.intro-header {
+  color: var(--colorWhite);
+}
+
+.title-row {
+  margin-top: 50px!important;
+}
+
+[alt="iphone-mockup"] {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+.download-button {
+  margin: 5% 3% 4% 0;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: var(--colorWhite);
+  position: relative;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature i {
+  font-size: 4.5rem;
+  color: var(--colorPrimary);
+}
+
+.feature h3 {
+  font-weight: bolder;
+  font-size:1.5rem;
+}
+
+.feature p {
+  color: var(--colorGray);
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 900;
+  margin: 0 30px 30px 0;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background: var(--colorPrimary);
+  color: var(--colorWhite);
+}
+
+.testimonial-heading {
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 14%;
+  border-radius: 100%;
+  margin: 30px 10px 0px 0px;
+}
+
+/* Press */
+
+#press{
+  background-color: var(--colorPrimary);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing */
+
+.pricing-header {
+  margin: 3% 0;
+}
+
+/* CTA section */
+
+#cta {
+  background-color: var(--colorPrimary);
+  text-align: center;
+  padding: 8% 14%;
+}
+
+#cta h3 {
+  color: var(--colorWhite);
+  font-family: 'Monaco', sans-serif;
+  font-weight: bolder;
+  font-size: 2.2rem;
+}
+
+#cta button {
+  margin-top: 20px;
+}
+
+/* Footer Section */
+
+footer {
+  padding: 5% 6%;
+  text-align: center;
+}
+
+footer i {
+  padding: 0 .7%;
+  font-weight: bolder;
+}
+
+footer p {
+  padding-top: 20px;
+  color: var(--colorGray);
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  [alt="iphone-mockup"] {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+
+}
+
+@media (max-width: 325px) {
+
+  #title h1 {
+    line-height: 1;
+    font-size: 2rem;
+  }
+
 }

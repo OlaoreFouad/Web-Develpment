@@ -1,0 +1,15 @@
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "description": "My First Server built from scratch with express.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Olaore Fouad",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

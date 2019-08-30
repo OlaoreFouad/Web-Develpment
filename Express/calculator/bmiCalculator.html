@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BMI Calculator</title>
+    <style>
+        * {
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        }
+
+        body {
+            background-color: bisque;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        form input {
+            padding: 20px;
+            color: black;
+            background-color: white;
+            border: 2px solid;
+            border-radius: 3px;
+        }
+
+        form * {
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px;
+            background-color: orange;
+            color: white;
+            border: none;
+        }
+
+        button:active, button:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form action="/bmiCalculator" method="POST">
+        <input type="number" name="weight" placeholder="Weight in (kg)"><br>
+        <input type="number" name="height" placeholder="Height in (m)"><br>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
